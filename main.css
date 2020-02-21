@@ -35,6 +35,7 @@ h4{
     border: solid 2px #1c6698;
     padding: 14px 36px;
     color: #1c6698;
+    display: inline-block;
 }
 .button:hover{
     background-color: #1c6698;
