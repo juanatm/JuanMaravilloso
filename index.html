@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:300,400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <title>Juan Maravilloso</title>
+
+    <link href="main.css" rel="stylesheet">
+    <title>Juan maravilloso</title>
 </head>
+
 <body>
     <header class="wrapper">
-        <h2>Juan Maravilloso</h2>
-        <!--TODO add menu icon-->
-        <i  class="material-icons" id="icon-open" >
+        <h2>Juan maravilloso</h2>
+        <i id="icon-open" class="material-icons">
             menu
-            </i>
-        <!--TODO add close icon-->
-        <i class="material-icons" id="icon-close">
-            clear
-            </i>
+        </i>
+        <i id="icon-close" class="material-icons">
+            close
+        </i>
         <nav>
             <ul>
-                <li>SOBRE MI</li>
-                <li>HABILIDADES</li>
-                <li>CONTÁCTAME</li>
+                <li><a href="#about-me">SOBRE MI</a></li>
+                <li><a href="#skills">HABILIDADES</a></li>
+                <li><a href="contact.html">CONTÁCTAME</a></li>
             </ul>
         </nav>
     </header>
-    <main >
-        <article >
+    <main>
+        <article>
             <section id="summary" class="wrapper">
                 <p>¡HOLA¡</p>
-                <h1>
-                    SOY JUAN, DESAROLLADOR WEB
-                </h1>
-                
-                <a href="#" class="button">¿HABLAMOS?</a>
-            
+                <h1>Soy Juan,
+                    desarrollador
+                    web</h1>
+                <a class="button" href="#">¿HABLAMOS?</a>
             </section>
             <section id="about-me" class="wrapper">
-                <h2>SOBRE MI</h2>
+                <h2>sobre mi</h2>
                 <div class="container">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ut ipsum accusantium magni non distinctio consequuntur, voluptatem quasi, doloremque eveniet tenetur odit et temporibus a suscipit autem corrupti illum explicabo!</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                    <div class="videoWrapper"><iframe width="272" height="153" src="https://www.youtube.com/embed/FRthkpJ_NFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. </p>
+
+                    <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOzzRlc_qho"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
-               
             </section>
             <section id="skills">
                 <h2>HABILIDADES</h2>
                 <div class="list">
                     <div class="skill">
-                        <h3>Front-end Developer</h3>
-                        <h4>LENGUAJES</h4>
+                        <h3>Front-end developer</h3>
+                        <h4>Lenguajes</h4>
                         <p>HTML, CSS, JavaScript</p>
                         <h4>DEV TOOLS</h4>
                         <ul>
@@ -61,12 +68,12 @@
                             <li>Bootstrap</li>
                             <li>Github</li>
                             <li>Gitlab</li>
-                             <li>Terminal</li>
-                         </ul>
+                            <li>Terminal</li>
+                        </ul>
                     </div>
                     <div class="skill">
-                        <h3>back-end Developer</h3>
-                        <h4>LENGUAJES</h4>
+                        <h3>back-end developer</h3>
+                        <h4>Lenguajes</h4>
                         <p>Java, Node.js, Python, PHP</p>
                         <h4>DEV TOOLS</h4>
                         <ul>
@@ -74,7 +81,7 @@
                             <li>Github</li>
                             <li>Docker</li>
                             <li>XAMPP</li>
-                         </ul>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -84,4 +91,5 @@
         <p>© 2019 Juan maravilloso </p>
     </footer>
 </body>
+
 </html>
