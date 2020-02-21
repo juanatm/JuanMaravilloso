@@ -11,9 +11,10 @@ body{
 }
 h1, h2, h3, h4, h5, h6, header ul{
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
 }
 h1{
+    letter-spacing: 3px;
     font-size: 36px;
 }
 
@@ -137,3 +138,38 @@ header.nav-open ul li{
     margin-top: 24px;
     margin-bottom: 34px;
 }
+
+/*skills*/
+#skills{
+
+}
+
+#skills .list{
+    display: flex;
+    overflow: auto;
+}
+
+#skills .list .skill{
+    box-sizing: border-box;
+    padding: 30px 35px;
+    width: 208px;
+    height: 350px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 32px;
+}
+
+
+#skills .list .skill h3{
+    border: solid 1px #ffffff;
+}
+#skills .list .skill h4{
+    color: white;
+}
+#skills .list .skill ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
