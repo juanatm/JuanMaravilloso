@@ -172,4 +172,12 @@ header.nav-open ul li{
     list-style: none;
 }
 
+/*footer*/
+
+footer{
+    display: flex;
+    height: 104px;
+    justify-content: center;
+    align-items: center;
+}
 
