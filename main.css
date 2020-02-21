@@ -47,8 +47,8 @@ a.button{
 
 /*Layout*/
 .wrapper {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 header,
 #about-me,
@@ -88,6 +88,14 @@ header #icon-close{
 header nav{
     display: none;
 }
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-size: 18px;
+    
+}
 
 /*menu*/
 header.nav-open #icon-open{
@@ -112,14 +120,7 @@ header.nav-open nav{
 header.nav-open #icon-close{
     z-index:10;
 }
-header.nav-open ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 2px;
-    font-size: 18px;
-    
-}
+
 header.nav-open ul li{
     color:  #1c6698;
     margin: 40px;  
@@ -141,7 +142,10 @@ header.nav-open ul li{
 }
 
 /*about me*/
-
+#about-me .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
 .videoWrapper{
     position: relative;
     padding-bottom: 56.25%;
@@ -171,7 +175,7 @@ height: 100%;
 
 #skills .list::after{
     content: "";
-    padding-right: 24px;
+    padding-right: 8vw;
 }
 #skills .list .skill{
     flex-shrink: 0;
@@ -184,7 +188,7 @@ height: 100%;
     margin-right: 32px;
 }
 #skills .list .skill:first-child{
-    margin-left: 24px;
+    margin-left: 8vw;
 }
 #skills .list .skill:last-child{
     margin-right: 0;
@@ -212,4 +216,62 @@ footer{
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width:554px){
+    #skills .list{
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px ){
+    /*layout*/
 
+    section{
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    /*header*/
+    header{
+        height: 104px;
+    }
+    header h2{
+        font-size: 20px;
+    }
+
+    /*menu*/
+ 
+    
+    header #icon-close,header #icon-open, header.nav-open #icon-open, header.nav-open #icon-close{
+        display: none;
+    }
+    header nav{
+        display: block;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        margin: 0 20px;
+    }
+    /*summary*/
+
+    #summary p{
+        font-size:20px ;
+    }
+  
+    #summary h1{
+        margin: 0 auto;
+        font-size: 80px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        width: 491px;
+    }
+
+    /*skills*/
+
+  
+
+    #skills .list .skill{
+        margin-right: 128px;
+    }
+  
+
+}
